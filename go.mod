@@ -1,9 +1,7 @@
 module github.com/143life/snake-game
 
-go 1.24.5
+go 1.25.0
 
-require (
-	github.com/clipperhouse/uax29/v2 v2.2.0 // indirect
-	github.com/mattn/go-runewidth v0.0.19 // indirect
-	github.com/nsf/termbox-go v1.1.1 // indirect
-)
+require golang.org/x/term v0.41.0
+
+require golang.org/x/sys v0.42.0 // indirect
